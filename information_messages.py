@@ -1,0 +1,11 @@
+class LinkedinErrors:
+    SKIP_NON_JOB_CARD_INFO = 'Skip non-job card {0} with class {1}'
+    COMPANY_SIZE_NOT_FOUND_ERR = 'Company size selector not found'
+    COMPANY_NAME_NOT_FOUND_ERR = 'Company name selector not found'
+    JOB_DESCRIPTION_FOUND_ERR = 'Job description selector not found'
+    JOB_APPLY_LINK_NOT_FOUND_ERR = 'Job apply-link selector not found'
+    JOB_NAME_NOT_FOUND_ERR = 'Job name selector not found'
+    JOB_WORK_TYPE_NOT_FOUND_ERR = 'Job work-type selector not found'
+    JOB_LOCATION_NOT_FOUND_ERR = 'Job location selector not found'
+    INVALID_SESSION_ID_ERR = 'Invalid sessionId on selenium driver'
+    COMMON_ERR = 'Something wrong with script'
